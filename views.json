@@ -1,0 +1,592 @@
+{
+ "spawn": "foyer",
+ "glb": "assets/katheb_v3_apartment.glb",
+ "order": [
+  "lobby",
+  "foyer",
+  "bath_01",
+  "living",
+  "window",
+  "dining",
+  "kitchen",
+  "laundry",
+  "maid_room",
+  "service_wc",
+  "hall",
+  "bath_02",
+  "bedroom_02",
+  "bedroom_01",
+  "master_bedroom",
+  "master_dressing",
+  "master_wc"
+ ],
+ "views": {
+  "lobby": {
+   "label": "Lift lobby",
+   "key": "0",
+   "pos": [
+    -4.288,
+    6.338
+   ],
+   "look": [
+    -1.0,
+    6.4,
+    1.3
+   ]
+  },
+  "foyer": {
+   "label": "Foyer",
+   "key": "1",
+   "pos": [
+    -1.138,
+    6.438
+   ],
+   "look": [
+    0.6,
+    6.7,
+    1.3
+   ]
+  },
+  "bath_01": {
+   "label": "Guest bath",
+   "key": "",
+   "pos": [
+    -1.138,
+    8.988
+   ],
+   "look": [
+    -0.6,
+    10.3,
+    1.0
+   ]
+  },
+  "living": {
+   "label": "Living",
+   "key": "2",
+   "pos": [
+    0.438,
+    6.737
+   ],
+   "look": [
+    2.3,
+    2.0,
+    1.1
+   ]
+  },
+  "window": {
+   "label": "Living \u2192 window",
+   "key": "",
+   "pos": [
+    2.938,
+    7.412
+   ],
+   "look": [
+    1.6,
+    0.0,
+    1.15
+   ]
+  },
+  "dining": {
+   "label": "Dining",
+   "key": "",
+   "pos": [
+    0.562,
+    5.688
+   ],
+   "look": [
+    1.6,
+    7.2,
+    1.0
+   ]
+  },
+  "kitchen": {
+   "label": "Kitchen",
+   "key": "3",
+   "pos": [
+    3.238,
+    8.938
+   ],
+   "look": [
+    0.3,
+    11.9,
+    1.05
+   ]
+  },
+  "laundry": {
+   "label": "Laundry",
+   "key": "9",
+   "pos": [
+    2.838,
+    12.988
+   ],
+   "look": [
+    0.3,
+    13.3,
+    1.0
+   ]
+  },
+  "maid_room": {
+   "label": "Maid's room",
+   "key": "",
+   "pos": [
+    3.037,
+    14.438
+   ],
+   "look": [
+    1.9,
+    15.4,
+    0.8
+   ]
+  },
+  "service_wc": {
+   "label": "Service WC",
+   "key": "",
+   "pos": [
+    0.862,
+    14.463
+   ],
+   "look": [
+    0.3,
+    15.6,
+    0.9
+   ]
+  },
+  "hall": {
+   "label": "Hall",
+   "key": "4",
+   "pos": [
+    4.787,
+    2.438
+   ],
+   "look": [
+    4.85,
+    7.6,
+    1.2
+   ]
+  },
+  "bath_02": {
+   "label": "Bath 02",
+   "key": "",
+   "pos": [
+    4.838,
+    1.388
+   ],
+   "look": [
+    5.2,
+    0.3,
+    1.0
+   ]
+  },
+  "bedroom_02": {
+   "label": "Bedroom 02",
+   "key": "6",
+   "pos": [
+    6.438,
+    2.088
+   ],
+   "look": [
+    8.6,
+    1.2,
+    1.0
+   ]
+  },
+  "bedroom_01": {
+   "label": "Bedroom 01",
+   "key": "5",
+   "pos": [
+    6.388,
+    5.088
+   ],
+   "look": [
+    8.6,
+    4.4,
+    1.0
+   ]
+  },
+  "master_bedroom": {
+   "label": "Master bedroom",
+   "key": "7",
+   "pos": [
+    5.787,
+    8.312
+   ],
+   "look": [
+    8.8,
+    9.6,
+    1.1
+   ]
+  },
+  "master_dressing": {
+   "label": "Dressing",
+   "key": "",
+   "pos": [
+    5.588,
+    10.338
+   ],
+   "look": [
+    5.4,
+    11.4,
+    1.2
+   ]
+  },
+  "master_wc": {
+   "label": "Master WC",
+   "key": "8",
+   "pos": [
+    7.638,
+    10.438
+   ],
+   "look": [
+    8.7,
+    11.3,
+    1.0
+   ]
+  }
+ },
+ "rooms": [
+  [
+   "lobby",
+   -6.0,
+   -2.0,
+   4.5,
+   8.3,
+   "Lift lobby",
+   1.195
+  ],
+  [
+   "foyer",
+   -2.0,
+   -0.15,
+   5.0,
+   8.55,
+   "Foyer",
+   1.195
+  ],
+  [
+   "bath_01",
+   -2.0,
+   -0.15,
+   8.55,
+   10.6,
+   "Guest bath (Bath 01)",
+   1.272
+  ],
+  [
+   "living",
+   -0.15,
+   3.9,
+   -0.4,
+   5.0,
+   "Living",
+   1.402
+  ],
+  [
+   "dining",
+   -0.15,
+   3.9,
+   5.0,
+   8.55,
+   "Dining",
+   1.0
+  ],
+  [
+   "kitchen",
+   -0.15,
+   3.9,
+   8.55,
+   12.35,
+   "Kitchen",
+   0.8
+  ],
+  [
+   "laundry",
+   -0.15,
+   3.9,
+   12.35,
+   14.0,
+   "Laundry / storage",
+   1.115
+  ],
+  [
+   "service_wc",
+   -0.15,
+   1.3,
+   14.0,
+   16.2,
+   "Service WC",
+   0.8
+  ],
+  [
+   "maid_room",
+   1.3,
+   3.9,
+   14.0,
+   16.2,
+   "Maid's room",
+   0.8
+  ],
+  [
+   "bath_02",
+   3.9,
+   5.6,
+   -0.4,
+   1.9,
+   "Bath 02",
+   1.074
+  ],
+  [
+   "hall",
+   3.9,
+   5.6,
+   1.9,
+   6.55,
+   "Hall",
+   1.45
+  ],
+  [
+   "bedroom_02",
+   5.6,
+   9.4,
+   -0.4,
+   3.25,
+   "Bedroom 02",
+   0.985
+  ],
+  [
+   "bedroom_01",
+   5.6,
+   9.4,
+   3.25,
+   6.55,
+   "Bedroom 01",
+   0.995
+  ],
+  [
+   "master_bedroom",
+   3.9,
+   9.4,
+   6.55,
+   10.03,
+   "Master bedroom",
+   0.897
+  ],
+  [
+   "master_wc",
+   7.1,
+   9.4,
+   10.03,
+   11.8,
+   "Master WC",
+   0.851
+  ],
+  [
+   "master_dressing",
+   3.9,
+   7.1,
+   10.03,
+   11.8,
+   "Master dressing",
+   0.884
+  ]
+ ],
+ "probes": {
+  "lobby": [
+   -4.288,
+   6.338,
+   1.3
+  ],
+  "foyer": [
+   -1.138,
+   6.438,
+   1.3
+  ],
+  "bath_01": [
+   -1.112,
+   8.988,
+   1.3
+  ],
+  "living": [
+   2.688,
+   1.587,
+   1.3
+  ],
+  "dining": [
+   0.562,
+   5.688,
+   1.3
+  ],
+  "kitchen": [
+   3.088,
+   9.488,
+   1.3
+  ],
+  "laundry": [
+   2.838,
+   12.988,
+   1.3
+  ],
+  "service_wc": [
+   0.862,
+   14.463,
+   1.3
+  ],
+  "maid_room": [
+   3.037,
+   14.438,
+   1.3
+  ],
+  "bath_02": [
+   4.838,
+   1.388,
+   1.3
+  ],
+  "hall": [
+   4.787,
+   3.488,
+   1.3
+  ],
+  "bedroom_02": [
+   6.438,
+   2.088,
+   1.3
+  ],
+  "bedroom_01": [
+   6.388,
+   5.088,
+   1.3
+  ],
+  "master_bedroom": [
+   5.787,
+   8.312,
+   1.3
+  ],
+  "master_wc": [
+   7.638,
+   10.438,
+   1.3
+  ],
+  "master_dressing": [
+   5.588,
+   10.338,
+   1.3
+  ]
+ },
+ "group_room": {
+  "lobby": "lobby",
+  "foyer": "foyer",
+  "bath_01": "bath_01",
+  "living": "living",
+  "dining": "dining",
+  "kitchen": "kitchen",
+  "laundry": "laundry",
+  "service_wc": "service_wc",
+  "maid_room": "maid_room",
+  "bath_02": "bath_02",
+  "hall": "hall",
+  "bedroom_02": "bedroom_02",
+  "bedroom_01": "bedroom_01",
+  "master_bedroom": "master_bedroom",
+  "master_wc": "master_wc",
+  "master_dressing": "master_dressing",
+  "floor": "*",
+  "walls_w": "*",
+  "walls_e": "*",
+  "ceiling": "*",
+  "plants": "*",
+  "art": "*",
+  "living_hero": "living",
+  "master_hero": "master_bedroom",
+  "kitchen_hero": "kitchen"
+ },
+ "credits": [
+  "Window view: \"Riyadh aerial helicam 2013\" by Ville Hyv\u00f6nen, CC BY-SA 2.0, via Wikimedia Commons (blurred, hazed, tiled)",
+  "Textures & scanned props: Poly Haven (CC0) and ambientCG (CC0)",
+  "Artworks: The Metropolitan Museum of Art Open Access (CC0) - Redout\u00e9, Seurat",
+  "Lighting baked in Blender Cycles; viewer built on three.js (MIT)"
+ ],
+ "ev_global": 0.725,
+ "reach_targets": {
+  "lobby": [
+   -4.288,
+   6.338
+  ],
+  "foyer": [
+   -1.138,
+   6.438
+  ],
+  "bath_01": [
+   -1.112,
+   8.988
+  ],
+  "living": [
+   2.688,
+   1.587
+  ],
+  "dining": [
+   0.562,
+   5.688
+  ],
+  "kitchen": [
+   3.088,
+   9.488
+  ],
+  "laundry": [
+   2.838,
+   12.988
+  ],
+  "maid_room": [
+   3.037,
+   14.438
+  ],
+  "service_wc": [
+   0.862,
+   14.463
+  ],
+  "hall": [
+   4.787,
+   3.488
+  ],
+  "bath_02": [
+   4.838,
+   1.388
+  ],
+  "bedroom_02": [
+   6.438,
+   2.088
+  ],
+  "bedroom_02_window_side": [
+   7.988,
+   0.562
+  ],
+  "bedroom_01": [
+   6.388,
+   5.088
+  ],
+  "bedroom_01_window_side": [
+   7.988,
+   3.738
+  ],
+  "master_bedroom": [
+   5.787,
+   8.312
+  ],
+  "master_dressing": [
+   5.588,
+   10.338
+  ],
+  "master_wc": [
+   7.638,
+   10.438
+  ]
+ },
+ "builds": {
+  "full": "assets/katheb_v3_apartment.glb",
+  "medium": "assets/katheb_v3_apartment_medium.glb",
+  "mobile": "assets/katheb_v3_apartment_mobile.glb"
+ },
+ "build_mb": {
+  "full": 92.4,
+  "medium": 46.7,
+  "mobile": 26.5
+ }
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KATHEB Type 01 – Apartment walkthrough</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1c1916">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style_v3.css">
+<link rel="stylesheet" href="style_v4.css">
+<script type="importmap">
+{ "imports": {
+    "three": "./vendor/three/build/three.module.js",
+    "three/addons/": "./vendor/three/addons/"
+} }
+</script>
+<link rel="icon" href="data:,">
+</head>
+<body>
+<div id="app"></div>
+<div id="loading"><div class="title">KATHEB · Type 01</div><div class="bar"><div id="barfill"></div></div><div id="loadtxt">Loading baked apartment…</div></div>
+<div id="hud">
+  <div class="brand">KATHEB · Type 01 <span>Full apartment · 3 bedrooms</span></div>
+  <div class="spots" id="spots"></div>
+</div>
+<div id="room"></div>
+<canvas id="minimap" width="230" height="260"></canvas>
+<div id="credits" style="display:none"></div>
+<div id="quality"></div>
+<div id="help">
+  <b>Click the view</b> to look around (mouse) &nbsp;·&nbsp; <b>W A S D</b> / arrows move &nbsp;·&nbsp; <b>Shift</b> walk faster<br>
+  <b>Right-click</b> (or <b>F</b>) on the floor = teleport there &nbsp;·&nbsp; <b>1–9, 0</b> jump to rooms &nbsp;·&nbsp; <b>N / P</b> next / previous room<br>
+  <b>[ ]</b> brightness &nbsp;·&nbsp; <b>E</b> auto-exposure &nbsp;·&nbsp; <b>M</b> map &nbsp;·&nbsp; <b>C</b> credits &nbsp;·&nbsp; <b>H</b> hide help &nbsp;·&nbsp; <b>Esc</b> release mouse
+</div>
+<div id="thelp"><b>Drag</b> to look around · <b>joystick</b> to walk · <b>tap the floor</b> to go there · room buttons above <span>(tap to hide)</span></div>
+<div id="stick"><div id="knob"></div></div>
+<div id="cross"></div>
+<div id="fps"></div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
